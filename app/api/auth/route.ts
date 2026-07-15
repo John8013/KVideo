@@ -6,7 +6,7 @@ import {
   validatePremiumAccess,
 } from '@/lib/server/auth';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 export async function GET() {
   return NextResponse.json(await getPublicAuthConfig());
