@@ -10,7 +10,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { authenticationRequiredResponse } from '@/lib/server/api-responses';
 import { getServerSession } from '@/lib/server/auth';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 const redis = Redis.fromEnv();
 
