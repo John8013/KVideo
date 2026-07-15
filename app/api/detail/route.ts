@@ -7,7 +7,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getVideoDetail } from '@/lib/api/client';
 import { getSourceById } from '@/lib/api/video-sources';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 /**
  * Shared handler for fetching video details
