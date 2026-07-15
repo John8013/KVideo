@@ -16,7 +16,7 @@ import {
 } from '@/lib/player/resolution-probe-utils';
 import type { VideoSource } from '@/lib/types';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 interface ProbeRequest {
   id: string | number;
