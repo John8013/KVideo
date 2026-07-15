@@ -4,7 +4,7 @@ import { authenticationRequiredResponse } from '@/lib/server/api-responses';
 import { getServerSession } from '@/lib/server/auth';
 
 // 确保这行代码在整个文件中只出现一次
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 const redis = Redis.fromEnv();
 
