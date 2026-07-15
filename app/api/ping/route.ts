@@ -6,7 +6,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { probeSourceLatency } from '@/lib/api/source-latency';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 export async function POST(request: NextRequest) {
     try {
